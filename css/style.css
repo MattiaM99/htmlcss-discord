@@ -133,6 +133,7 @@ header{
 
 #prima-sez{
   position: relative;
+  width: 100%;
   height: 550px;
   border-bottom: 1px solid grey;
 }
@@ -165,6 +166,7 @@ h2{
 
 #seconda-sez{
   position: relative;
+  width: 100%;
   height: 600px;
   border-bottom: 1px solid grey;
 }
@@ -190,6 +192,7 @@ h2{
 
 /* TERZA SEZIONE */
 #terza-sez{
+  width: 100%;
   position: relative;
   height: 550px;
   border-bottom: 1px solid grey;
@@ -197,5 +200,50 @@ h2{
 
 /* QUARTA SEZIONE */
 #quarta-sez{
-  
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  border-bottom: 1px solid grey;
+}
+
+.center{
+  width: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+.capt-top{
+  position: absolute;
+  top: 5%;
+  left: 25%;
+  width: 50%;
+  text-align: center;
+} 
+
+
+.capt-bot{
+  position: absolute;
+  width: 30%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  bottom: 1%;
+  text-align: center;
+}
+
+.light-blue{
+  background-color: #8EA1E2;
+  color: white;
+}
+
+.light-blue:hover{
+  color: white;
+}
+
+/* FOOTER */
+
+footer{
+  background-color: #23272A;
+  height: 600px;
 }
