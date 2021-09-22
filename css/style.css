@@ -128,3 +128,74 @@ header{
 .jumbotron .btn:first-of-type{
   margin-right: 20px;
 }
+
+/* PRIMA SEZIONE */
+
+#prima-sez{
+  position: relative;
+  height: 550px;
+  border-bottom: 1px solid grey;
+}
+
+.imm-left{
+  position: absolute;
+  float: left;
+  top: 0;
+  left: -50px;
+  width: 40%;
+  margin: 0px 10px 10px 15%;
+}
+
+.capt-right {
+  font-size: 20px;
+  position: absolute;
+  float: left;
+  left: 60%;
+  top: 20px;
+  margin: 1% 10% 10px 1%;
+  width: 15%;
+}
+
+h2{
+  margin-bottom: 8%;
+  line-height: 35px;
+}
+
+/* SECONDA SEZIONE */
+
+#seconda-sez{
+  position: relative;
+  height: 600px;
+  border-bottom: 1px solid grey;
+}
+
+.imm-right{
+  position:absolute;
+  float: left;
+  top: 0;
+  right: -50px;
+  width: 40%;
+  margin: 0px 15% 10px 10px
+}
+
+.capt-left{
+  font-size: 20px;
+  position: absolute;
+  float:left;
+  right: 60%;
+  top: 20px;
+  margin: 1% 1% 10px 10%;
+  width: 15%;
+}
+
+/* TERZA SEZIONE */
+#terza-sez{
+  position: relative;
+  height: 550px;
+  border-bottom: 1px solid grey;
+}
+
+/* QUARTA SEZIONE */
+#quarta-sez{
+  
+}
